@@ -1,0 +1,17 @@
+/* styles.css */
+.pie-chart-container {
+   width: 50%;
+   height: 100%;
+ }
+ 
+ .custom-tooltip {
+   background-color: #333;
+   border-radius: 5px;
+   color: #fff;
+   padding: 10px;
+ }
+ 
+ .custom-tooltip-item {
+   color: #fff;
+ }
+ 

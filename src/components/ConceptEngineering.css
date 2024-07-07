@@ -1,0 +1,115 @@
+.ConceptEngineering {
+   padding: 20px;
+   margin: 0 auto;
+   max-width: 100%;
+   box-sizing: border-box;
+   clear: both; /* Ensure it does not overlap with preceding elements */
+   display: flex; /* Add flexbox */
+   flex-wrap: wrap; /* Allow wrapping on smaller screens */
+   justify-content: space-between; /* Space out items */
+}
+.ConceptEngineering-container h1{
+   text-align: center;
+}
+
+.ConceptEngineering-items {
+   flex: 1; /* Allow items to grow and fill space */
+   margin: 10px; /* Add margin between items */
+   padding-left: 100px;
+}
+
+.ConceptEngineering-items img {
+   width: 100%; /* Ensure the image fits within its parent */
+   height: auto; /* Maintain aspect ratio */
+   display: block; /* Remove bottom space under the image */
+   max-width: 100%;
+
+}
+
+.ConceptEngineering h1 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.ConceptEngineering p {
+   max-width: 800px;
+   margin-bottom: 20px;
+   line-height: 1.6;
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.ConceptEngineering ul {
+   max-width: 800px;
+   text-align: left;
+   list-style-type: disc;
+   padding-left: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.ConceptEngineering li {
+   margin-bottom: 10px;
+}
+
+.ConceptEngineering h3 {
+   text-align: center;
+}
+
+.stage {
+   width: 100%;
+   margin-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.stage-items {
+   width: 40%;
+   min-width: 300px; /* Ensure minimum width to keep content readable */
+   height: 100%;
+   box-sizing: border-box;
+   margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+   .ConceptEngineering {
+      padding: 10px;
+   }
+
+   .ConceptEngineering-items {
+      flex: 1 1 100%; /* Make items take full width on smaller screens */
+      margin: 5px 0;
+      margin-left: 40px;
+   }
+
+   .ConceptEngineering p,
+   .ConceptEngineering ul {
+      max-width: 100%;
+   }
+
+   .stage-items {
+      width: 45%;
+      margin: 5px;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .ConceptEngineering h1 {
+      font-size: 1.5rem;
+   }
+
+   .ConceptEngineering p,
+   .ConceptEngineering ul {
+      max-width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   .ConceptEngineering-items{
+      padding-left: 15px;
+   }
+   .stage-items {
+      width: 100%; /* Make stage-items take full width on small screens */
+      margin: 5px 0; /* Reduce margin for better spacing */
+   }
+}

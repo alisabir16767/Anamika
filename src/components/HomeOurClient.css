@@ -1,0 +1,48 @@
+.our-client {
+   width: 100%;
+   height: auto; /* Change height to auto for responsiveness */
+   background-color: rgb(235, 233, 233);
+   margin-top: 10px;
+   text-align: center;
+   padding: 20px; /* Add some padding */
+
+ }
+
+ 
+ .company {
+   display: flex;
+   flex-wrap: wrap; /* Add flex-wrap to allow items to wrap to the next line */
+   justify-content: space-around;
+   color: black;
+ }
+ 
+ .company-img {
+   background-color: aliceblue;
+   margin: 10px;
+   border-radius: 5px;
+   width: calc(20% - 20px); /* Adjust width based on the number of items per row */
+   max-width: 200px; /* Set a maximum width to prevent images from becoming too large */
+   flex-grow: 1; /* Allow items to grow to fill the space evenly */
+   height: 200px;
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ @media screen and (max-width: 768px) {
+   .company-img {
+     width: calc(33.33% - 20px); /* Adjust width for smaller screens */
+   }
+ }
+ 
+ @media screen and (max-width: 576px) {
+   .company-img {
+     width: calc(50% - 20px); /* Adjust width for even smaller screens */
+   }
+ }
+ 
+ @media screen and (max-width: 400px) {
+   .company-img {
+     width: calc(100% - 20px); /* Adjust width for very small screens */
+   }
+ }
+ 

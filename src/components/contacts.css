@@ -1,0 +1,15 @@
+.Contacts-items {
+   width: 100%;
+   height: 200px;
+   margin-top: 95px;
+   background-image: url("https://media.istockphoto.com/id/182061790/photo/white-wooden-board-background.jpg?s=1024x1024&w=is&k=20&c=Ecu_ZbSVP9AhRrJh5O8WW6n3UwbdVYrE4zshLIix-UU=");
+   text-align: center;
+   display: flex;
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+   margin-bottom: 20px;
+}
+
+.Contacts-items h1 {
+   margin: 0;
+}

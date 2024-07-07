@@ -1,0 +1,86 @@
+.FeasibilityStudies {
+   display: flex;
+   flex-wrap: wrap; /* Allow wrapping for smaller screens */
+   padding: 20px;
+   margin: 0 auto;
+   max-width: 100%; /* Set a maximum width for larger screens */
+}
+.FeasibilityStudies-container h1{
+text-align: center;
+}
+.FeasibilityStudies-items {
+   flex: 1; /* Make items take equal width */
+   margin: 10px; /* Add some margin between items */
+   padding-left: 100px;
+}
+
+.FeasibilityStudies h1 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.FeasibilityStudies p {
+   max-width: 800px;
+   margin-bottom: 20px;
+   line-height: 1.6;
+   text-align: left; /* Ensure paragraph text is aligned to the left */
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.FeasibilityStudies ul {
+   max-width: 800px; /* Match the width of the paragraph */
+   text-align: left; /* Align the list items to the left */
+   list-style-type: disc;
+   padding-left: 20px; /* Add left padding for indentation */
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.FeasibilityStudies li {
+   margin-bottom: 10px;
+}
+
+.FeasibilityStudies img {
+   max-width: 100%; /* Make sure the image is responsive */
+   height: auto; /* Maintain aspect ratio */
+   display: block; /* Remove any bottom space */
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+   .FeasibilityStudies {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      padding: 10px;
+   }
+   
+   .FeasibilityStudies-items {
+      width: 100%; /* Ensure full width for items on smaller screens */
+      margin: 0 auto; /* Center align items on smaller screens */
+   }
+
+   .FeasibilityStudies ul {
+      padding-left: 20px;
+   }
+   .FeasibilityStudies-items{
+      padding-left: 40px;
+   }
+}
+
+@media (max-width: 576px) {
+   .FeasibilityStudies h1 {
+      font-size: 1.5rem;
+   }
+
+   .FeasibilityStudies p,
+   .FeasibilityStudies ul {
+      max-width: 100%;
+      padding-left: 10px; /* Adjust left padding for smaller screens */
+      padding-right: 10px; /* Adjust right padding for smaller screens */
+   }
+   .FeasibilityStudies-items{
+      padding-left: 20px;
+   }
+}

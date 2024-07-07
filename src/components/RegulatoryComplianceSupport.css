@@ -1,0 +1,83 @@
+.RegulatoryComplianceSupport {
+   padding: 20px;
+   box-sizing: border-box;
+   margin-bottom: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around; /* Adjust spacing between items */
+   align-items: flex-start; /* Align items to the top */
+ }
+ 
+ .RegulatoryComplianceSupport h1 {
+   text-align: center;
+   margin-top: 10px;
+   width: 100%; /* Ensure title spans full width */
+ }
+ 
+ .RegulatoryComplianceSupport-items {
+   flex: 1 1 calc(50% - 20px); /* Each item takes 50% width with margin */
+   margin: 10px;
+   padding: 20px;
+   box-sizing: border-box;
+   max-width: calc(50% - 20px); /* Ensure items don't exceed half the width */
+ }
+ 
+ .RegulatoryComplianceSupport-items img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ .RegulatoryComplianceSupport p {
+   margin-left: 30px;
+   max-width: 800px;
+   line-height: 1.6;
+   text-align: left;
+   margin-top: 20px;
+   margin-right: auto;
+ }
+ 
+ .RegulatoryComplianceSupport ul {
+   list-style-type: disc;
+   padding-left: 40px;
+   margin-top: 10px;
+ }
+ 
+ .RegulatoryComplianceSupport li {
+   margin-bottom: 10px;
+ }
+ 
+ @media screen and (max-width: 768px) {
+   .RegulatoryComplianceSupport-items {
+     flex-basis: 100%; /* Each item takes full width on smaller screens */
+     margin-bottom: 20px;
+   }
+ 
+   .RegulatoryComplianceSupport p {
+     margin-left: 20px;
+     max-width: 100%;
+     padding-right: 20px;
+   }
+ 
+   .RegulatoryComplianceSupport ul {
+     padding-left: 20px;
+   }
+ }
+ 
+ @media screen and (max-width: 576px) {
+   .RegulatoryComplianceSupport h1 {
+     font-size: 1.5rem; /* Reduce font size for smaller screens */
+   }
+ 
+   .RegulatoryComplianceSupport p {
+     margin-left: 10px;
+     padding-right: 10px;
+   }
+ 
+   .RegulatoryComplianceSupport ul {
+     padding-left: 10px;
+   }
+ }
+ 

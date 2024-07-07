@@ -1,0 +1,84 @@
+.StrengthPresence {
+   width: 100%;
+   background-color: white;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 10px;
+   box-sizing: border-box;
+   padding: 10px;
+}
+
+.Strength {
+   flex: 1;
+   min-width: 300px;
+   margin: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+   padding: 10px;
+}
+
+.Strength h1 {
+   margin: 0;
+   padding: 10px 0;
+   text-align: center;
+}
+
+.quality {
+   color: #d9534f; /* Customize the color */
+}
+
+.strength-details ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+
+.strength-details ul li {
+   margin: 5px 0;
+   padding-left: 80px;
+   position: relative;
+}
+
+.strength-details ul li:before {
+   content: '•';
+   color: #5bc0de; /* Customize the bullet color */
+   position: absolute;
+   left: 0  ;
+}
+
+.strength-pic img,
+.presence-pic img {
+   width: 100%;
+   height: auto;
+   border-radius: 5px;
+   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+   .StrengthPresence {
+      flex-direction: column;
+   }
+
+   .Strength {
+      width: 100%;
+      margin: 5px 0;
+   }
+
+   .Strength h1 {
+      font-size: 1.5em;
+   }
+}
+
+@media (max-width: 480px) {
+   .Strength h1 {
+      font-size: 1.2em;
+   }
+
+   .strength-details ul li {
+      padding-left: 15px;
+   }
+}

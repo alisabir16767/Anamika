@@ -1,0 +1,56 @@
+/* Footer.css */
+
+.footer {
+   background-color: #444444 !important; /* Example background color */
+   color: #fff !important; /* Example text color */
+ }
+ 
+ .footer .section {
+   padding: 20px !important; /* Example padding for sections */
+ }
+ 
+ .footer .social-icons a {
+   color: #fff !important; /* Example color for social media icons */
+   margin-right: 10px !important; /* Example margin between social media icons */
+ }
+ .footer .social-icons span{
+   color: #fff;
+ }
+ 
+
+ .footer .social-icons a:hover {
+   color: #0098DA !important; /* Example hover color for social media icons */
+ }
+ 
+ .footer .links a {
+   color: #fff !important; /* Example color for links */
+ }
+ .footer-link h6{
+  color: #0098DA !important;
+ }
+ 
+ .footer-link p {
+   color: #fff;
+ }
+
+ .footer-link a:hover{
+  color: #0098DA !important;
+ }
+
+ .footer .links a:hover {
+   color:#0098DA !important; /* Example hover color for links */
+ }
+ .footer .copyright {
+  background-color: #333 !important; /* Example background color */
+  color: #fff !important; /* Example text color */
+  padding: 15px !important; /* Example padding */
+  font-size: 14px !important; /* Example font size */
+}
+
+.footer .copyright a {
+  color: #fff !important; /* Example color for the link */
+}
+
+.footer .copyright a:hover {
+  color: #0098DA !important; /* Example hover color for the link */
+}

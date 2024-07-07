@@ -1,0 +1,89 @@
+.MasterPlanning {
+   padding: 20px;
+   margin: 0 auto;
+   max-width: 100%;
+   background-color: rgb(238, 244, 255);
+   display: flex; /* Use flexbox for layout */
+   flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+   justify-content: space-between; /* Space out items */
+}
+.MasterPlanning-container{
+   background-color: rgb(238, 244, 255);
+
+}
+.MasterPlanning-container h1{
+   text-align: center;
+}
+
+.MasterPlanning-items {
+   flex: 1; /* Allow items to grow and fill space */
+   margin: 10px; /* Add margin between items */
+   padding-left: 20px; /* Adjust padding as needed */
+}
+
+.MasterPlanning-items img {
+   width: 100%;
+   height: auto; /* Maintain aspect ratio */
+   max-width: 500px; /* Optional: Set a max-width for the image */
+   margin: 0 auto; /* Center the image horizontally */
+}
+
+.MasterPlanning h1 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.MasterPlanning p {
+   max-width: 800px;
+   margin-bottom: 20px;
+   line-height: 1.6;
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.MasterPlanning ul {
+   max-width: 800px;
+   text-align: left;
+   list-style-type: disc;
+   padding-left: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.MasterPlanning li {
+   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+   .MasterPlanning {
+      padding: 10px;
+      flex-direction: column; /* Stack items vertically on smaller screens */
+   }
+
+   .MasterPlanning p,
+   .MasterPlanning ul {
+      max-width: 100%;
+   }
+
+   .MasterPlanning-items {
+      padding-left: 20px; /* Adjust padding for smaller screens */
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .MasterPlanning h1 {
+      font-size: 1.5rem;
+   }
+
+   .MasterPlanning p,
+   .MasterPlanning ul {
+      max-width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+
+   .MasterPlanning-items {
+      padding-left: 10px; /* Adjust padding for even smaller screens */
+   }
+}

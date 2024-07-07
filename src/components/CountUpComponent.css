@@ -1,0 +1,26 @@
+.CountUpContainer {
+   display: flex;
+   flex-wrap: wrap; /* Allow items to wrap to the next line */
+   justify-content: space-around; /* Adjust this property to control the spacing between items */
+   align-items: center;
+   background-color: #444444;
+   padding: 20px; /* Add padding around the container */
+}
+
+.CountUpItem {
+   flex: 1; /* Each item takes equal space */
+   padding: 20px; /* Add padding around each item */
+   border-radius: 5px;
+   margin: 10px; /* Add margin around each item */
+   color: aliceblue;
+   text-align: center; /* Center text horizontally */
+   max-width: 200px; /* Limit maximum width of each item */
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+   .CountUpContainer {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center items horizontally */
+   }
+}

@@ -1,0 +1,57 @@
+.ProjectManagement {
+   padding: 20px;
+   font-family: Arial, sans-serif;
+   max-width: 1200px;
+   margin: 0 auto; /* Center align the main container */
+   display: flex;
+   flex-wrap: wrap; /* Allow children to wrap to the next row */
+   justify-content: space-around; /* Space out items evenly */
+ }
+ 
+ .ProjectManagement h1 {
+   text-align: center;
+   margin-bottom: 20px;
+   width: 100%; /* Ensure h1 takes full width */
+ }
+ 
+ .ProjectManagement-items {
+   flex: 1 1 45%; /* Each item takes up 45% of the container width */
+   margin-bottom: 30px;
+   padding: 10px;
+   box-sizing: border-box; /* Ensure padding is included in width calculation */
+ }
+ 
+ .ProjectManagement-items img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ .ProjectManagement p {
+   max-width: 100%; /* Full width for paragraphs */
+   margin-left: auto;
+   margin-right: auto;
+   line-height: 1.6;
+ }
+ 
+ .ProjectManagement ul {
+   max-width: 100%; /* Full width for lists */
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 20px;
+   list-style-type: disc;
+ }
+ 
+ .ProjectManagement li {
+   margin-bottom: 10px;
+ }
+ 
+ @media (max-width: 768px) {
+   .ProjectManagement-items {
+     flex-basis: 100%; /* Each item takes full width on smaller screens */
+     margin-bottom: 20px;
+   }
+ }
+ 

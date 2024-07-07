@@ -1,0 +1,64 @@
+.TechnologyTransfer {
+   width: 100%;
+   height: auto; /* Make height auto to adapt to content size */
+
+   padding: 20px;
+   box-sizing: border-box;
+   margin-bottom: 20px;
+   display: flex; /* Use flexbox to align items in a row */
+   flex-wrap: wrap; /* Allow wrapping on smaller screens */
+   justify-content: space-between; /* Space out items */
+}
+
+
+.TechnologyTransfer-container h1 {
+   text-align: center;
+   margin-top: 10px;
+   width: 100%; /* Ensure the heading takes full width */
+}
+
+.TechnologyTransfer p {
+   max-width: 800px;
+   margin: 20px auto;
+   line-height: 1.6;
+   text-align: left;
+}
+
+.TechnologyTransfer-items {
+   flex: 1 1 48%; /* Allow items to grow and shrink, taking 48% of the container */
+   margin: 10px; /* Add margin for spacing */
+}
+
+.TechnologyTransfer img {
+   max-width: 100%;
+   height: auto; /* Make image responsive */
+   border-radius: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+   .TechnologyTransfer {
+      padding: 10px;
+      flex-direction: column; /* Stack items vertically on smaller screens */
+   }
+
+   .TechnologyTransfer-items {
+      flex: 1 1 100%; /* Make items take full width */
+      margin: 10px 0; /* Adjust margin for vertical stacking */
+   }
+
+   .TechnologyTransfer p {
+      max-width: 100%;
+      padding: 0 10px;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .TechnologyTransfer h1 {
+      font-size: 1.5rem;
+   }
+
+   .TechnologyTransfer p {
+      padding: 0 10px;
+   }
+}

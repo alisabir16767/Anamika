@@ -1,0 +1,31 @@
+.OurExpertise-header {
+   margin-top: 95px;
+   width: 100%;
+   height: 150px;
+   display: flex; /* Use Flexbox */
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+   text-align: center; /* Center text horizontally */
+   background-image: url("https://media.istockphoto.com/id/182061790/photo/white-wooden-board-background.jpg?s=1024x1024&w=is&k=20&c=Ecu_ZbSVP9AhRrJh5O8WW6n3UwbdVYrE4zshLIix-UU=");
+   background-size: cover; /* Ensure background image covers the whole area */
+   background-position: center; /* Center the background image */
+ }
+ 
+ .ProjectExpertise {
+   width: 100%;
+   height: auto;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 20px;
+ }
+ 
+ .ProjectExpertise img {
+   width: 100%;
+   height: auto;
+   max-width: 850px; /* Ensure the image doesn't grow too large */
+   display: block;
+   margin: 0 auto; /* Center the image horizontally */
+ }
+ 
+
+ 

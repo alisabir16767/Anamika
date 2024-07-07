@@ -1,0 +1,54 @@
+.ClientTestimonials {
+   text-align: center;
+   padding: 20px;
+}
+
+
+
+.ClientTestimonials-items {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.ClientTestimonials-pic {
+   width: 30%;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.ClientTestimonials-pic img {
+   max-width: 100%;
+   height: auto;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1200px) {
+   .ClientTestimonials-pic {
+       width: 25%;
+   }
+}
+
+@media (max-width: 992px) {
+   .ClientTestimonials-pic {
+       width: 33.33%;
+   }
+}
+
+@media (max-width: 768px) {
+   .ClientTestimonials-pic {
+       width: 50%;
+   }
+}
+
+@media (max-width: 576px) {
+   .ClientTestimonials-pic {
+       width: 100%;
+   }
+}

@@ -1,0 +1,56 @@
+.mission-full-stop {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh; /* Set minimum height to the viewport height */
+  background-color: rgb(238, 244, 255);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Ensure column layout */
+  padding: 20px; /* Add padding for better spacing */
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.mission-full-stop-content {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: space-around; /* Distribute space around items */
+  align-items: center; /* Align items in the center */
+  width: 100%;
+}
+
+.mission-full-stop h1 {
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.mission-full-stop-items {
+  flex: 1 1 45%; /* Flex-grow, flex-shrink, and base width */
+  max-width: 600px; /* Limit maximum width for better readability */
+  margin: 10px; /* Add margin for spacing */
+  text-align: left; /* Align content to the left */
+}
+
+.mission-full-stop-items ul {
+  list-style-type: none; /* Remove default list styling */
+  padding-left: 0; /* Remove default padding */
+}
+
+.mission-full-stop-items li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.mission-full-stop-items img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .mission-full-stop-content {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .mission-full-stop-items {
+    flex: 1 1 100%; /* Full width for smaller screens */
+  }
+}

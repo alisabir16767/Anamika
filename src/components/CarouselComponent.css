@@ -1,0 +1,34 @@
+/* CarouselComponent.css */
+.custom-carousel{
+  margin-top: 95px !important;
+}
+.carousel-item img {
+   max-height: 500px !important;
+   object-fit: cover;
+ }
+ 
+ .carousel-caption h3 {
+   font-size: 2rem;
+   font-weight: bold;
+   color: #111111; /* Custom color */
+ }
+ 
+ .carousel-caption p {
+   font-size: 1.25rem;
+   color: black; /* Custom color */
+ }
+ 
+ .custom-carousel .carousel-control-prev-icon,
+ .custom-carousel .carousel-control-next-icon {
+   background-color: #000000; /* Custom background color */
+   border-radius: 50%;
+ }
+ 
+ .custom-carousel .carousel-indicators li {
+   background-color: #ffcc00; /* Custom color for indicators */
+ }
+ 
+ .custom-carousel .carousel-indicators .active {
+   background-color: #ffffff; /* Custom color for active indicator */
+ }
+ 

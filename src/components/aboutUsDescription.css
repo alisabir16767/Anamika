@@ -1,0 +1,80 @@
+/* Normal styles for larger screens */
+.AboutUs-Container {
+  width: 100%;
+  height: auto; /* Change height to auto for responsiveness */
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px 50px; /* Add padding for better spacing */
+  background-image: url("https://images.unsplash.com/photo-1548211749-2f184133850c?q=80&w=1628&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+  /* Animation */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+     opacity: 0;
+     transform: translateY(20px);
+  }
+  to {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+.AboutUs-Title {
+  font-size: 2rem;
+}
+
+.AboutUs-Title-Description {
+  width: 100%;
+  height: auto;
+  background-color: rgb(237, 249, 253);
+  padding: 30px;
+  margin-top: 20px;
+
+  /* Animation */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.AboutUs-Title-Description p {
+  text-align: left;
+  background-color: rgb(237, 249, 253);
+  margin: 0;
+}
+
+.quality {
+  font-weight: bold;
+  color: #2b87da;
+}
+
+.DescriptionImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .AboutUs-Container {
+     padding: 20px;
+     background-size: cover; /* Ensure background image covers the entire area */
+  }
+
+  .AboutUs-Title {
+     font-size: 1.5rem;
+  }
+
+  .AboutUs-Title-Description {
+     padding: 20px;
+  }
+
+  .DescriptionImage img {
+     max-width: 100%;
+     height: auto;
+  }
+}

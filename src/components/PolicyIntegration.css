@@ -1,0 +1,87 @@
+.PolicyIntegration {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("https://images.unsplash.com/photo-1554227231-54aa5db01c51?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+  /* Animation */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.quality {
+  color: #0098DA;
+}
+
+.Policy {
+  flex: 1 0 50%; /* Two columns on large screens */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: 800px;
+  border: 0.1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.Policy p {
+  text-align: left;
+}
+
+.Policy ul {
+  list-style-type: disc; /* Use disc bullets */
+  margin-top: 20px; /* Add some top margin for spacing */
+  padding-left: 20px; /* Add left padding for indentation */
+  text-align: left; /* Align the text to the left */
+}
+
+.Policy li {
+  margin-bottom: 10px;
+}
+
+.Policy-img {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure any overflow is hidden */
+  position: relative; /* Allow positioning of img */
+}
+
+.Policy-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+  .Policy {
+    flex: 1 0 100%; /* Full width on smaller screens */
+  }
+
+  .Policy-img {
+    height: auto; /* Let the height adjust based on content */
+  }
+
+  .Policy-img img {
+    width: 100%; /* Maintain 100% width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+}

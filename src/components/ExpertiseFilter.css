@@ -1,0 +1,44 @@
+.container.wrapper {
+   width: 100%;
+   padding: 20px;
+ }
+ 
+ .pull-right {
+   float: right !important;
+ }
+ 
+ .thumbnails {
+   display: flex !important;
+   flex-wrap: wrap !important;
+ }
+ 
+ .col-md-3 {
+   width: 25% !important;
+   padding: 10px !important;
+ }
+ 
+ .thumbnail {
+   border: 1px solid #ddd !important;
+   padding: 10px !important;
+   text-align: center !important;
+ }
+ 
+ .thumbnail img {
+   width: 100% !important;
+   height: auto !important;
+ }
+ 
+ .caption {
+   margin-top: 10px !important;
+ }
+ 
+ .clearfix::after {
+   content: "" !important;
+   clear: both !important;
+   display: table !important;
+ }
+ 
+ .btn-small {
+   margin: 5px !important;
+ }
+ 
