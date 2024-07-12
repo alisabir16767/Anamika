@@ -2,7 +2,7 @@
   "name": "innotechamerican",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alisabir16767.github.io/InnotechAmerican/",
+  "homepage": ".",
   "scripts": {
     "start": "node server.js",
     "build": "react-scripts build",
