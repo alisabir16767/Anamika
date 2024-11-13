@@ -1,34 +1,38 @@
 /* CarouselComponent.css */
-.custom-carousel{
+.custom-carousel {
   margin-top: 95px !important;
 }
+
 .carousel-item img {
-   max-height: 500px !important;
-   object-fit: cover;
- }
- 
- .carousel-caption h3 {
-   font-size: 2rem;
-   font-weight: bold;
-   color: #111111; 
- }
- 
- .carousel-caption p {
-   font-size: 1.25rem;
-   color: black; /* Custom color */
- }
- 
- .custom-carousel .carousel-control-prev-icon,
- .custom-carousel .carousel-control-next-icon {
-   background-color: #000000; /* Custom background color */
-   border-radius: 50%;
- }
- 
- .custom-carousel .carousel-indicators li {
-   background-color: #ffcc00; /* Custom color for indicators */
- }
- 
- .custom-carousel .carousel-indicators .active {
-   background-color: #ffffff; /* Custom color for active indicator */
- }
- 
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain; /* Ensures the image fits within the container without cropping */
+  background-color: #f0f0f0; /* Optional: adds a background color for images with transparent areas */
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item img {
+    max-height: 200px;
+  }
+}
+
+.custom-carousel .carousel-control-prev-icon,
+.custom-carousel .carousel-control-next-icon {
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.custom-carousel .carousel-indicators li {
+  background-color: #ffcc00;
+}
+
+.custom-carousel .carousel-indicators .active {
+  background-color: #ffffff;
+}

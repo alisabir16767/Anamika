@@ -8,15 +8,15 @@ class OurStrengthOurPresence extends Component {
       return (
          <div className='StrengthPresence'>
             <div className="Strength">
-               <h1>OUR <span className='quality'>STRENGTH</span> </h1>
+               <h1>OUR <span className='quality'>STRENGTH</span></h1>
                <div className="strength-details">
                   <ul>
-                     <li>Exceptionally skilled and driven team members.</li>
-                     <li>Profound expertise equipped to tackle intricate projects.</li>
-                     <li>Demonstrated track record of effectively executing projects across a spectrum of enterprises, ranging from small to large.</li>
-                     <li>Extensive global project experience spanning diverse locations.</li>
-                     <li>Client-centric methodology delivering customized solutions.</li>
-                     <li>Established reputation for delivering projects punctually and with cost-efficiency.</li>
+                     <li>A highly skilled and committed workforce, dedicated to delivering superior logistics solutions.</li>
+                     <li>Proven expertise in managing large-scale logistics and supply chain operations across diverse industries, including Pharma, FMCG, and E-commerce.</li>
+                     <li>Track record of successful project execution, from small-scale to large, complex supply chain solutions.</li>
+                     <li>Strong national presence with branches across key cities, including Mumbai, Raipur, Lucknow, Nagpur, and more, ensuring extensive coverage of India’s landmass.</li>
+                     <li>Client-focused approach, offering tailored logistics services such as refrigerated transport, multi-modal solutions, and last-mile delivery.</li>
+                     <li>Reputation for delivering projects and services on time, ensuring cost-efficiency and high customer satisfaction.</li>
                   </ul>
                </div>
             </div>

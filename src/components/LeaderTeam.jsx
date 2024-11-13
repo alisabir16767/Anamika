@@ -1,5 +1,9 @@
 import React from 'react';
 import './LeaderTeam.css';
+import Image1 from '../assets/images/leader1.jpg';
+import Image2 from '../assets/images/leader2.jpg';
+import Image3 from '../assets/images/leader3.jpg';
+import Image4 from '../assets/images/leader4.jpeg'
 
 const LeaderTeam = () => {
    return ( 
@@ -7,34 +11,34 @@ const LeaderTeam = () => {
          <h1 className='LeaderTeam-Title'>LEADER <span className='quality'>TEAM</span> </h1>
          <div className="cards-container">
             <div className="card">
-               <div className="card-img-top" style={{ backgroundImage: "url('https://plus.unsplash.com/premium_photo-1661433046492-6a5abf63505a?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}></div>
+               <div className="card-img-top" style={{ backgroundImage: `url(${Image1})` }}></div>
                <div className="card-body">
-                  <h3>SABIR ALI</h3>
-                  <p><b> <span className='quality'>FOUNDER & DIRECTOR</span> </b>
-                     <br />EXPERIENCE 30+</p>
+                  <h3>PRADEEP KUMAR MISHRA</h3>
+                  <p><b><span className='quality'>FOUNDER & DIRECTOR</span></b>
+                     <br />EXPERIENCE 25+</p>
                </div>
             </div>
             <div className="card">
-               <div className="card-img-top" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1598053763750-0feb1ddaad6e?q=80&w=1585&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}></div>
+               <div className="card-img-top" style={{ backgroundImage: `url(${Image2})` }}></div>
                <div className="card-body">
-                  <h3>SABIR ALI</h3>
-                  <p><b> <span className='quality'>FOUNDER & DIRECTOR</span> </b>
-                     <br />EXPERIENCE 30+</p>
+                  <h3>ANAMIKA MISHRA</h3>
+                  <p><b><span className='quality'> CO-FOUNDER</span></b>
+                     <br />EXPERIENCE 3+</p>
                </div>
             </div>
             <div className="card">
-               <div className="card-img-top" style={{ backgroundImage: "url('https://plus.unsplash.com/premium_photo-1661304704888-542933309d4a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}></div>
+               <div className="card-img-top" style={{ backgroundImage: `url(${Image3})` }}></div>
                <div className="card-body">
-                  <h3>SABIR ALI</h3>
-                  <p><b> <span className='quality'>FOUNDER & DIRECTOR</span> </b>
-                     <br />EXPERIENCE 30+</p>
+                  <h3>ARPIT MISHRA</h3>
+                  <p><b><span className='quality'>MANAGING DIRECTOR</span></b>
+                     <br />EXPERIENCE 2+</p>
                </div>
             </div>
             <div className="card">
-               <div className="card-img-top" style={{ backgroundImage: "url('https://plus.unsplash.com/premium_photo-1661304704888-542933309d4a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}></div>
+               <div className="card-img-top" style={{ backgroundImage: `url(${Image4})` }}></div>
                <div className="card-body">
-                  <h3>SABIR ALI</h3>
-                  <p><b> <span className='quality'>FOUNDER & DIRECTOR</span> </b>
+                  <h3>PRADEEP KUMAR MISHRA</h3>
+                  <p><b><span className='quality'>FOUNDER & DIRECTOR</span></b>
                      <br />EXPERIENCE 30+</p>
                </div>
             </div>

@@ -6,51 +6,49 @@ class PolicyIntegration extends Component {
    render() { 
       return (
          <div className='PolicyIntegration'>
-        <div className="Policy">
-        <h1> QUALITY <span class="quality">POLICY</span></h1>
+            <div className="Policy">
+               <h1>QUALITY <span className="quality">POLICY</span></h1>
+               <br /><br />
+               <p>
+                  At <span className='quality'>Maa Ambe Road Carrier</span>, we are committed to providing world-class logistics and supply chain solutions for industries such as Pharmaceuticals, FMCG, and E-commerce. Our focus is on delivering quality service that enhances operational efficiency and guarantees timely, secure, and cost-effective delivery.
+                  <br /><br />
+                  We strongly believe in the principle of "Quality by Design" and apply this approach to every aspect of our logistics solutions. By focusing on the design and optimization of our processes, we ensure the highest standards of service and reliability for our clients.
+                  <br /><br />
+                  <b>Quality Objective:</b>
+                  <br /><br />
+                  To contribute to sustainable development by promoting the use of environmentally friendly materials and energy-efficient logistics solutions. We aim to minimize the environmental impact of our services while ensuring that each project is cost-efficient and technologically advanced.
+               </p>
+               <div className='Policy-img'>
+                  <img src="https://media.istockphoto.com/id/1405788580/photo/drug-manufacturing-in-pharmaceutical-industry-and-its-female-employee-seen-taping-on-the.jpg?s=2048x2048&w=is&k=20&c=rO81lfQmlYX0l2k8ghQ_4TwTQgG1PteR6HOyAMrOCNc=" alt="Logistics in Action" />
+               </div>
+            </div>
 
-
-
-
-         <br /><br />
-         <p> We at <span className='quality'>InnoTech American</span> TURNKEY have our firm commitment to Quality Project Management and Engineering solutions for Pharmaceuticals, Biotech and Healthcare Industry. We firmly believe in the principle of Quality by Design.
-            <br />
-            We believe that the Quality built by Design in every project or
-engineering solution, will help the quality cautious Pharma, Biotech and Healthcare Industry to accomplish their goal of serving the mankind with quality products and services.
-            <br />
-            <br />
-            <b>Quality Objective:</b>
-            <br />
-            <br />
-            To protect the environment by promoting usage of environment friendly materials and non-conventional energy sources. To optimize the capital and recurring cost of every project by providing cost efficient and technologically advanced solutions.
-         </p>
-         <div className='Policy-img'>
-              <img src="https://media.istockphoto.com/id/1405788580/photo/drug-manufacturing-in-pharmaceutical-industry-and-its-female-employee-seen-taping-on-the.jpg?s=2048x2048&w=is&k=20&c=rO81lfQmlYX0l2k8ghQ_4TwTQgG1PteR6HOyAMrOCNc=" alt="pic" />
+            <div className="Policy">
+               <h1>PROJECT <span className='quality'>INTEGRATION</span></h1>
+               <br /><br />
+               <p>Logistics integration is crucial for the smooth execution of any large-scale project. Projects in industries such as Pharmaceuticals, FMCG, and E-commerce require seamless coordination between multiple stakeholders. Key features of such projects include:</p>
+               <ul>
+                  <li>Adherence to international standards and regulatory requirements such as ISO, WHO, GMP, and other industry-specific guidelines.</li>
+                  <li>Focus on the timely and efficient delivery of goods, meeting client specifications and ensuring minimal downtime.</li>
+                  <li>Management of complex, multi-modal transport involving road, rail, air, and sea logistics.</li>
+                  <li>Increasing automation in logistics processes to enhance operational efficiency.</li>
+               </ul>
+               <br />
+               <p>
+                  At Maa Ambe Road Carrier, we take a holistic approach to integrating logistics operations. Our expertise lies in streamlining processes, improving coordination, and ensuring the highest level of efficiency. "Project Integration is our strength." With our extensive experience in managing both domestic and international logistics projects, we guarantee seamless integration of your logistics needs.
+               </p>
+               <br />
+               <p>The benefits of our integrated approach include:</p>
+               <ul>
+                  <li>A client-centric approach, offering a true single-point responsibility for all logistics needs.</li>
+                  <li>Fixed and transparent pricing throughout the project, ensuring cost-efficiency.</li>
+                  <li>End-to-end management of logistics, from planning to execution, by a dedicated team.</li>
+                  <li>Superior quality service, ensuring the safe and timely delivery of goods.</li>
+                  <li>Timely project completion, enabling quicker return on investment (ROI).</li>
+                  <li>Long-term support and partnership, ensuring the continued success of your logistics operations.</li>
+               </ul>
+            </div>
          </div>
-        </div>
-        <div className="Policy">
-         <h1>PROJECT <span className='quality'>INTEGRATION</span> </h1>
-         <br /><br />
-         <p>Intrgration is the single most important activity for a Pharmaceutical Project Execution. Pharmaceutical Projects are complex in nature having features:</p>
-         <ul>
-            <li>Stringent Guidelines like WHO, GMP, USFDA, PICS, MHRA, TGA and EU GMP guidelines.</li>
-            <li>Constant focus on the quality of final product.</li>
-            <li>For a mid-sized Pharmaceutical Plant construction, 40 different trade agencies are required.</li>
-            <li>Pharmaceutical plant are becoming more wired and automated.</li>
-         </ul>
-         <br />
-         <p>At PHARMADEEP TURNKEY, we Integrate, Articulate & Unify the entire sub-processes into a cohesive whole. "Project Integration is our USP". With our vast experience in handling Domestic & International Pharmaceutical Projects, we ensure that professional integration of project will have plenty of benefits to you like:</p>
-         <ul>
-            <li>Client oriented approach assures you a true single point responsibility.</li>
-            <li>Firm and fix prices throughout the project execution.</li>
-            <li>End-to-end management by the designer and the executer.</li>
-            <li> Superior quality of the works.</li>
-            <li>Timely handing over of the project to generate quicker ROI.</li>
-            <li>Long-term business association and support to bring success for your executed project. </li>
-         </ul>
-        </div>
-        </div>
-
       );
    }
 }

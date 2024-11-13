@@ -14,7 +14,7 @@ class AppNavbar extends Component {
             alt="InnoTech American" 
             className="navbar-brand-image"
           />
-         Anamika 
+         Maa 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
