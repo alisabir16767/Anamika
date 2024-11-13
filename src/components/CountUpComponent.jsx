@@ -9,7 +9,7 @@ class CountUpComponent extends Component {
       return (
          <div className='CountUpContainer'>
             <div className='CountUpItem'>
-               <h1><CountUp end={10} suffix="+" /></h1>
+               <h1><CountUp end={25} suffix="+" /></h1>
                <p>Year of Experience</p>
             </div>
             <div className='CountUpItem'>

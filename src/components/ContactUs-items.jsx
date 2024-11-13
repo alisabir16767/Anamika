@@ -8,20 +8,20 @@ const ContactUsItems = () => {
       <div className="ContactUs-items">
          <div className="Address">
             <div className="Address-detail">
-               <h4><FontAwesomeIcon icon={faMapMarkerAlt} /> | CORPORATE OFFICE:</h4>
-               <p>B-509, Lodha Supremus II, Road No. 22, Wagle Estate, Thane (West) - 400604, Maharashtra, India.</p>
+               <h4><FontAwesomeIcon icon={faMapMarkerAlt} />CORPORATE OFFICE:</h4>
+               <p>Maa ambe x Anamika raodlines serve no 20024 kolhe old mumbai Puna road panvel Navi Mumbai.</p>
                <h4><FontAwesomeIcon icon={faEnvelope} /> EMAIL:</h4>
-               <p>alisabir167167@gmail.com</p>
+               <p>maaamberoad@gmail.com</p>
                <h4><FontAwesomeIcon icon={faPhone} /> PHONE:</h4>
-               <p>+91 7464082141</p>
+               <p>+91 8850418165</p>
             </div>
             <div className="Address-detail">
                <h4><FontAwesomeIcon icon={faMapMarkerAlt} /> BRANCH OFFICE:</h4>
-               <p>707, A Park Business Hub, Jain Colony, Shahibaug, Ahmedabad - 380004, Gujarat, India.</p>
+               <p>Maa ambe x Anamika raodlines serve no 20024 kolhe old mumbai Puna road panvel Navi Mumbai.</p>
                <h4><FontAwesomeIcon icon={faEnvelope} /> EMAIL:</h4>
-               <p>alisabir167167@gmail.com</p>
+               <p>maaamberoad@gmail.com</p>
                <h4><FontAwesomeIcon icon={faPhone} /> PHONE:</h4>
-               <p>+91 7464082141</p>
+               <p>+91 9769419731</p>
             </div>
          </div>
          <div className="ContactForm">

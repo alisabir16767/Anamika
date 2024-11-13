@@ -10,7 +10,7 @@ class OurClientele extends Component {
       return (
          <div className='OurClientele'>
          <div className='OurClientele-header'>
-                     <h1>OUR <span className='quality'>CLIENTELE</span></h1>
+                     <h1>OUR <span className='quality'>CLIENTS</span></h1>
 
          </div>
           <MissionAccomplished/>

@@ -11,7 +11,7 @@ class AppNavbar extends Component {
         <Navbar.Brand as={Link} to="/" className="navbar-brand-custom">
           <img 
             src={Logo}
-            alt="InnoTech American" 
+            alt="Maa Ambe Carriers" 
             className="navbar-brand-image"
           />
          Maa Ambe Carriers 
@@ -25,9 +25,8 @@ class AppNavbar extends Component {
             <Nav.Link as={Link} to="/contacts" className="nav-link-custom">Contact Us</Nav.Link>
            
               <Nav.Link as={Link} to="/ourexpertise" className="nav-link-custom">Our Expertise</Nav.Link>
-              <Nav.Link as={Link} to="/ourclientele" className="nav-link-custom">Our Clientele</Nav.Link>
+              <Nav.Link as={Link} to="/ourclientele" className="nav-link-custom">Our Clients</Nav.Link>
 
-           
           </Nav>
         </Navbar.Collapse>
       </Navbar>

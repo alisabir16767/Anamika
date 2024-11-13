@@ -27,12 +27,10 @@ const Footer = () => {
           <a href="#!" className="text-reset">
             <i className="fab fa-instagram"></i>
           </a>
-          <Link to="https://www.linkedin.com/in/amrekan-innotech-436021300/?trk=contact-info" className="text-reset"> {/* Use Link component */}
+          <Link to="" className="text-reset"> {/* Use Link component */}
             <i className="fab fa-linkedin"></i>
           </Link>
-          <a href="#!" className="text-reset">
-            <i className="fab fa-github me-2"></i>
-          </a>
+          
         </div>
         {/* Right */}
       </section>
@@ -47,11 +45,10 @@ const Footer = () => {
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 footer-link">
               {/* Content */}
               <h6 className="text-uppercase fw-bold mb-4">
-                <i className="fas fa-gem me-3"></i>InnoTech American
+                <i className="fas fa-gem me-3"></i>Maa Ambe Carrier
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                dolor sit amet, consectetur adipisicing elit.
+              Our Company presence in Pan India and we have 10+ more branches in Pan India like Head Office is in Stayed at the Heart and Financial Capital of India Mumbai and branches is in Nagpur, Raipur, Durgapur, Indore , Allahabad, Lucknow, Rajasthan, Harayana, Mohali, Amritsar, Uttarkhand, Kashipur and Sambhalpur Orrisa. We have 40+ Staff working in all over branches along with Head office.
               </p>
             </div>
             {/* Grid column */}
@@ -85,13 +82,14 @@ const Footer = () => {
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer-link">
               {/* Links */}
               <h6 className="text-uppercase fw-bold mb-4">CORPORATE OFFICE</h6>
-              <p><i className="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p><i className="fas fa-home me-3"></i>Maa ambe x Anamika raodlines serve no 20024 kolhe old mumbai Puna road panvel Navi Mumbai 
+              </p>
               <p>
                 <i className="fas fa-envelope me-3"></i>
-                alisabir167167@gmail.com
+                maaamberoad@gmail.com
               </p>
-              <p><i className="fas fa-phone me-3"></i> +91 7464082141</p>
-              <p><i className="fas fa-print me-3"></i> +91 7464082141</p>
+              <p><i className="fas fa-phone me-3"></i> +91 9769419731</p>
+              <p><i className="fas fa-print me-3"></i> +91 8850418165</p>
             </div>
             {/* Grid column */}
 
@@ -99,12 +97,12 @@ const Footer = () => {
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footer-link">
               {/* Links */}
               <h6 className="text-uppercase fw-bold mb-4">HEAD OFFICE</h6>
-              <p><i className="fas fa-home me-3"></i>J-1/10 Second Floor DDA Flat New Delhi</p>
+              <p><i className="fas fa-home me-3"></i>Maa ambe x Anamika raodlines serve no 20024 kolhe old mumbai Puna road panvel Navi Mumbai              </p>
               <p>
                 <i className="fas fa-envelope me-3"></i>
-                innotechamrekan@gmail.com              </p>
-              <p><i className="fas fa-phone me-3"></i> +91 8288809350</p>
-              <p><i className="fas fa-print me-3"></i> +91 7464082141</p>
+                maaamberoad@gmail.com              </p>
+              <p><i className="fas fa-phone me-3"></i> +91 9769419731</p>
+              <p><i className="fas fa-print me-3"></i> +91 8850418165</p>
             </div>
             {/* Grid column */}
           </div>
@@ -116,7 +114,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="copyright text-center p-4">
         © 2024 Copyright:
-        <a className="text-reset fw-bold" href="https://AmrekanInnoTech.com/">Amrekan.com</a>
+        <a className="text-reset fw-bold" href=".">MaaAmbeCarriers.com</a>
       </div>
       <div className="copyright text-center p-4">
         <a className="text-reset fw-bold" href="https://www.linkedin.com/in/sabirali123/">Developed By SABIR ALI</a>
