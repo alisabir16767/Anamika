@@ -19,16 +19,15 @@ class App extends Component {
         <AppNavbar />
         <main className="flex-grow-1">
           <div className="content">
-            <Routes> {/* Use Routes instead of Switch */}
-              {/* Define routes using the element prop */}
+            <Routes>
               <Route path="/aboutUs" element={<AboutUs />} />
               <Route path="/ourServices" element={<OurServices />} />
               <Route path="/ourExpertise" element={<OurExpertise />} />
               <Route path="/ourClientele" element={<OurClientele />} />
               <Route path="/downloads" element={<Downloads />} />
               <Route path="/contacts" element={<Contacts />} />
-              <Route path="/" element={<Home />} /> {/* Default Route */}
-              <Route path="*" element={<NotFound />} /> {/* Catch-all Route for 404 */}
+              <Route path="/" element={<Home />} /> 
+              <Route path="*" element={<NotFound />} /> 
             </Routes>
           </div>
         </main>
