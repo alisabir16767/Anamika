@@ -7,29 +7,29 @@ import OurClientele from './components/ourClientele';
 import Downloads from './components/Downloads';
 import Contacts from './components/contacts';
 import Home from './components/home';
-import { Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'; // Import Routes and Route from react-router-dom v6
 import Footer from './components/footer';
 import NotFound from './components/notFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 class App extends Component {
   render() {
     return (
       <div className="d-flex flex-column min-vh-100">
         <AppNavbar />
-        <main className=" flex-grow-1">
+        <main className="flex-grow-1">
           <div className="content">
-            <Switch>
-              <Route path="/aboutUs" component={AboutUs} />
-              <Route path="/ourServices" component={OurServices} />
-              <Route path="/ourExpertise" component={OurExpertise} />
-              <Route path="/ourClientele" component={OurClientele} />
-              <Route path="/downloads" component={Downloads} />
-              <Route path="/contacts" component={Contacts} />
-              <Route path="/" exact component={Home} />
-              <Route component={NotFound}/>
-            </Switch>
+            <Routes> {/* Use Routes instead of Switch */}
+              {/* Define routes using the element prop */}
+              <Route path="/aboutUs" element={<AboutUs />} />
+              <Route path="/ourServices" element={<OurServices />} />
+              <Route path="/ourExpertise" element={<OurExpertise />} />
+              <Route path="/ourClientele" element={<OurClientele />} />
+              <Route path="/downloads" element={<Downloads />} />
+              <Route path="/contacts" element={<Contacts />} />
+              <Route path="/" element={<Home />} /> {/* Default Route */}
+              <Route path="*" element={<NotFound />} /> {/* Catch-all Route for 404 */}
+            </Routes>
           </div>
         </main>
         <Footer />
