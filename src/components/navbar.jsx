@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './navbar.css'; 
-import Logo from "../assets/images/logo1.png";
+import Logo from "../assets/images/logo1.jpg";
 
 class AppNavbar extends Component {
   render() {
@@ -14,7 +14,7 @@ class AppNavbar extends Component {
             alt="InnoTech American" 
             className="navbar-brand-image"
           />
-         Maa 
+         Maa Ambe Carriers 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -23,11 +23,11 @@ class AppNavbar extends Component {
             <Nav.Link as={Link} to="/aboutus" className="nav-link-custom">About Us</Nav.Link>
             <Nav.Link as={Link} to="/ourservices" className="nav-link-custom">Our Services</Nav.Link>
             <Nav.Link as={Link} to="/contacts" className="nav-link-custom">Contact Us</Nav.Link>
-            <NavDropdown title="Expertise/Clientele" id="basic-nav-dropdown" className="nav-link-custom">
-              <NavDropdown.Item as={Link} to="/ourexpertise" className="nav-link-custom">Our Expertise</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/ourclientele" className="nav-link-custom">Our Clientele</NavDropdown.Item>
+           
+              <Nav.Link as={Link} to="/ourexpertise" className="nav-link-custom">Our Expertise</Nav.Link>
+              <Nav.Link as={Link} to="/ourclientele" className="nav-link-custom">Our Clientele</Nav.Link>
 
-            </NavDropdown>
+           
           </Nav>
         </Navbar.Collapse>
       </Navbar>
