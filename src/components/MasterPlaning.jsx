@@ -1,47 +1,43 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './MasterPlaning.css';
-import MasterPlanningImage from '../assets/images/Master-Planning1.png';
+import MasterPlanningImage from '../assets/images/Master-Planning1.png'; // Update with relevant image if necessary
 
 const MasterPlaning = () => {
    return ( 
       <div className="MasterPlanning-container">
          <h1>MASTER <span className='quality'> PLANNING</span></h1>
 
-     
-      <div className='MasterPlanning'>
-         <div className="MasterPlanning-items">
-      <p>
-      A Master Plan also called a comprehensive plan, provides a long-term vision for the built environment of Pharmaceutical Factories and Laboratories. It guides the appropriate use of lands in order to plan and envisage future growth potential. As a result, the Master Plan has a direct relationship with the growth of the organization.
-      <br />
-      <br />
-      <span className='quality'>INNOTECH AMERICAN</span> Turnkey has an expert team of architects and designers to make a futuristic Master Plan to identify:
-      </p>
-      <ul>
-         <li>Suitable locations for Manufacturing, Administration Research & Development, and Utilities.</li>
-         <li>Green belt and environment management.</li>
-         <li>Opportunities to extend and/or improve open space, recreational areas, and civic facilities.</li>
-         <li>Strategies for future development.</li>
-      </ul>
-   
-      <p><b>Why should a Master Plan be important to you?</b>
-      <br />
-      The simple answer is that a Master Plan is important because it affects future growth plans.</p>
-      <ul>
-         <li>Master Plan helps to adopt new manufacturing technologies.</li>
-         <li>Pharmaceutical Manufacturing is very dynamic and the master plan helps you to device compliance with future GMP standards.</li>
-         <li>Master Plan helps you to adopt new automation.</li>
-         
-      </ul>
-         </div>
-         <div className="MasterPlanning-items">
-            <img src={MasterPlanningImage} alt="MasterPlanning Image" />
-         </div>
+         <div className='MasterPlanning'>
+            <div className="MasterPlanning-items">
+               <p>
+                  A Master Plan, also called a comprehensive plan, provides a long-term vision for the structured development of infrastructure within industries. It ensures the optimal use of resources and guides future growth potential. For companies like Maa Ambe Road Carrier, a Master Plan plays a pivotal role in driving organizational growth.
+                  <br />
+                  <br />
+                  <span className='quality'>Maa Ambe Road Carrier</span> has a dedicated team of experts who design futuristic Master Plans to help identify:
+               </p>
+               <ul>
+                  <li>Optimal locations for Logistics Operations, Administration, and Service Utilities.</li>
+                  <li>Green belt and environmental management to support sustainable development.</li>
+                  <li>Opportunities to expand or enhance open spaces and improve service and operational areas.</li>
+                  <li>Strategic plans for future growth and development.</li>
+               </ul>
+            
+               <p><b>Why is a Master Plan important?</b>
+               <br />
+               A Master Plan is crucial because it impacts future growth and operational strategies, ensuring that all processes are aligned with long-term objectives.</p>
+               <ul>
+                  <li>It enables the adoption of new transportation and logistics technologies.</li>
+                  <li>Helps Maa Ambe Road Carrier adapt to evolving industry standards and compliance requirements.</li>
+                  <li>Supports the integration of new automation and efficiency improvements in logistics operations.</li>
+               </ul>
+            </div>
 
-     
-     
-   </div>
-   </div>
+            <div className="MasterPlanning-items">
+               <img src={MasterPlanningImage} alt="Master Planning Image" />
+            </div>
+         </div>
+      </div>
     );
 }
- 
+
 export default MasterPlaning;

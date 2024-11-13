@@ -7,7 +7,7 @@ import OurClientele from './components/ourClientele';
 import Downloads from './components/Downloads';
 import Contacts from './components/contacts';
 import Home from './components/home';
-import { Routes, Route } from 'react-router-dom'; // Import Routes and Route from react-router-dom v6
+import { Routes, Route } from 'react-router-dom'; 
 import Footer from './components/footer';
 import NotFound from './components/notFound';
 import 'bootstrap/dist/css/bootstrap.min.css';

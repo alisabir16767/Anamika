@@ -12,13 +12,14 @@ const MissionFullStop = () => {
         <div className="mission-full-stop-content">
           <div className="mission-full-stop-items">
             <ul>
-                <li>Focus on energy-efficient and high-quality compliant solutions</li>
-                <li>Architectural & Engineering Design.</li>
-                <li>Tailored solutions for pharmaceuticals, API, bulk drugs, biotechnology, R&D, laboratories, food & cosmetics, logistics, residential, and other industries</li>
-                <li>Accelerate drug discovery and development processes.</li>
-                <li>Proficient in Greenfield and Brownfield projects
-</li>
+                <li>Add value to the comprehensive range of logistics solutions globally on a broad platform.</li>
+                <li>Build proper business logic into client operations.</li>
+                <li>Adopt and excel in ‘best of the breed’ technology.</li>
+                <li>Provide customers with a competitive and economical edge.</li>
+            
+
               </ul>
+             
           </div>
 
           <div className="mission-full-stop-items">
