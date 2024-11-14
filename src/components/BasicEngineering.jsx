@@ -8,14 +8,14 @@ const BasicEngineering = () => {
          <h1>Basic <span className='quality'>Engineering</span></h1>
          <div className="BasicEngineering-container">
             <div className="BasicEngineering-items">
-               <p><b>During BASIC ENGINEERING, the following definitions of the Project will be developed:</b></p>
+               <p><b>During the BASIC ENGINEERING phase, the following elements of the logistics infrastructure are developed:</b></p>
                <ul>
-                  <li>Alternative Plant Layouts meeting GMP requirements.</li>
-                  <li>Men/Material Flow drawings on the approved layout.</li>
-                  <li>Design of Heating, Ventilation, Air Conditioning and Pressure Differential System with proposed Air Flow Diagram.</li>
-                  <li>Design on Treatment, Purification, Filtration and Distribution of various Utility Systems like Water, Steam and Compressed Air, etc.</li>
-                  <li>Estimate Requirements of various Utilities.</li>
-                  <li>Estimate Electric Power Requirements for the plant and suggest High Tension and Low Tension Distribution Schemes.</li>
+                  <li>Optimized facility layouts to maximize loading and unloading efficiency.</li>
+                  <li>Planning of vehicle and material flow paths to ensure smooth operations.</li>
+                  <li>Design of HVAC and environmental control systems for temperature-sensitive goods.</li>
+                  <li>Planning for water, fuel, and other essential utility systems to support daily operations.</li>
+                  <li>Estimating resource requirements to support vehicle maintenance and logistics operations.</li>
+                  <li>Calculating electrical power needs and outlining a distribution plan to support high-load equipment and lighting.</li>
                </ul>
             </div>
             <div className="BasicEngineering-items">

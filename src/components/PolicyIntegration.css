@@ -2,7 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   background-image: url("https://images.unsplash.com/photo-1554227231-54aa5db01c51?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-
+  background-size: cover; /* Ensure the background image covers the whole container */
+  background-position: center;
+  
   /* Animation */
   opacity: 0;
   transform: translateY(20px);
@@ -30,12 +32,15 @@
   box-sizing: border-box;
   text-align: center;
   width: 100%;
-  height: 800px;
+  height: auto; /* Make height auto to adjust content dynamically */
   border: 0.1px solid black;
   border-radius: 10px;
   margin-bottom: 20px;
   padding-left: 30px;
   padding-right: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  /* Optional: Add box shadow for better visuals */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .Policy p {
@@ -43,10 +48,10 @@
 }
 
 .Policy ul {
-  list-style-type: disc; /* Use disc bullets */
-  margin-top: 20px; /* Add some top margin for spacing */
-  padding-left: 20px; /* Add left padding for indentation */
-  text-align: left; /* Align the text to the left */
+  list-style-type: disc;
+  margin-top: 20px;
+  padding-left: 20px;
+  text-align: left;
 }
 
 .Policy li {
@@ -59,14 +64,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Ensure any overflow is hidden */
-  position: relative; /* Allow positioning of img */
+  overflow: hidden;
+  position: relative;
+  /* Add padding for responsiveness */
+  padding: 0;
 }
 
 .Policy-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  object-fit: cover;
+  object-position: center; /* Ensure the image stays centered */
 }
 
 /* Media query for responsiveness */
@@ -76,12 +84,23 @@
   }
 
   .Policy-img {
-    height: auto; /* Let the height adjust based on content */
+    height: 250px; /* Adjust the image height for smaller screens */
   }
 
   .Policy-img img {
-    width: 100%; /* Maintain 100% width */
-    height: auto; /* Auto height to maintain aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .Policy {
+    flex: 1 0 100%;
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .Policy-img {
+    height: 200px; /* Adjust height for very small screens */
   }
 }

@@ -11,14 +11,13 @@ const MatchWinningAchievement = () => {
       transition={{ duration: 1 }} // Transition duration
     >
       <div className='achievement-items'>
-        <h1>FEW OF OUR <span className='quality'> MATCH WINNING ACHIEVEMENTS  </span></h1>
+        <h1>FEW OF OUR <span className='quality'>LEADING AND FAST GROWING ACHIEVEMENTS IN THE TRANSPORT INDUSTRY</span></h1>
         <ul>
-          <li>Successfully developed and launched over 10 novel pharmaceuticals in the past decade, targeting diseases such as cancer, diabetes, and rare genetic disorders.</li>
-          <li>Conducted over 200 clinical trials globally, with a focus on ensuring safety, efficacy, and regulatory compliance.</li>
-          <li>Invested over $500 million annually in R&D, leading to groundbreaking advancements in biotechnology and personalized medicine.</li>
-          <li>Expanded operations to over 50 countries, providing essential medications and healthcare solutions to millions of patients worldwide.</li>
-          <li>Implemented green manufacturing processes, reducing carbon footprint by 40% and achieving ISO 14001 certification for environmental management.</li>
-          <li>Formed strategic alliances with leading academic institutions, research organizations, and healthcare providers to foster innovation and improve patient outcomes.</li>
+          <li>Founded in 2020, Maa Ambe Road Carrier has grown rapidly to become a prominent logistics provider, with a strong presence across India.</li>
+          <li>Our company operates in major cities including Mumbai (Head Office), Nagpur, Raipur, Durgapur, Indore, Allahabad, Lucknow, Rajasthan, Haryana, Mohali, Amritsar, Uttarakhand, Kashipur, and Sambhalpur (Orissa), serving 40+ locations.</li>
+          <li>We pride ourselves on employing a dedicated team of 40+ professionals across branches, ensuring smooth operations in the logistics industry.</li>
+          <li>We manage over 15 million cubic feet of cargo every year, covering 85% of India’s landmass, through a fleet of 600+ containerized vehicles and open trucks.</li>
+          <li>Our logistics services are enhanced by real-time cargo visibility, freight optimization, and sophisticated data management, ensuring timely deliveries and safe handling of goods.</li>
         </ul>
       </div>
     </motion.div>

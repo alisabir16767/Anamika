@@ -1,44 +1,68 @@
-.container.wrapper {
-   width: 100%;
-   padding: 20px;
- }
- 
- .pull-right {
-   float: right !important;
- }
- 
- .thumbnails {
-   display: flex !important;
-   flex-wrap: wrap !important;
- }
- 
- .col-md-3 {
-   width: 25% !important;
-   padding: 10px !important;
- }
- 
- .thumbnail {
-   border: 1px solid #ddd !important;
-   padding: 10px !important;
-   text-align: center !important;
- }
- 
- .thumbnail img {
-   width: 100% !important;
-   height: auto !important;
- }
- 
- .caption {
-   margin-top: 10px !important;
- }
- 
- .clearfix::after {
-   content: "" !important;
-   clear: both !important;
-   display: table !important;
- }
- 
- .btn-small {
-   margin: 5px !important;
- }
- 
+.expertise-filter-container {
+  width: 100%;
+  padding: 20px !important;
+}
+
+.expertise-filter-buttons {
+  float: right !important;
+}
+
+.expertise-filter-thumbnails {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 20px !important;
+  justify-content: space-around !important;
+}
+
+.expertise-filter-col-md-3 {
+  width: 100% !important;
+  padding: 10px !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+@media (min-width: 768px) {
+  .expertise-filter-col-md-3 {
+    width: 48% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .expertise-filter-col-md-3 {
+    width: 23% !important;
+  }
+}
+
+.expertise-filter-thumbnail {
+  border: 1px solid #ddd !important;
+  padding: 10px !important;
+  text-align: center !important;
+  background-color: #fff !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.expertise-filter-thumbnail img {
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: cover !important;
+  border-radius: 4px !important;
+}
+
+.expertise-filter-caption {
+  margin-top: 10px !important;
+}
+
+.clearfix::after {
+  content: "" !important;
+  clear: both !important;
+  display: table !important;
+}
+
+.btn-small {
+  margin: 5px !important;
+}

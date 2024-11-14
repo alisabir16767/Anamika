@@ -30,16 +30,16 @@ const LeaderTeam = () => {
                <div className="card-img-top" style={{ backgroundImage: `url(${Image3})` }}></div>
                <div className="card-body">
                   <h3>ARPIT MISHRA</h3>
-                  <p><b><span className='quality'>MANAGING DIRECTOR</span></b>
+                  <p><b><span className='quality'>EXECUTIVE DIRECTOR</span></b>
                      <br />EXPERIENCE 2+</p>
                </div>
             </div>
             <div className="card">
                <div className="card-img-top" style={{ backgroundImage: `url(${Image4})` }}></div>
                <div className="card-body">
-                  <h3>PRADEEP KUMAR MISHRA</h3>
-                  <p><b><span className='quality'>FOUNDER & DIRECTOR</span></b>
-                     <br />EXPERIENCE 30+</p>
+                  <h3>SUMIT MISHRA</h3>
+                  <p><b><span className='quality'>EXECUTIVE DIRECTOR</span></b>
+                     <br />EXPERIENCE 1+</p>
                </div>
             </div>
          </div>

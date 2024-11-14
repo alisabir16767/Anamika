@@ -1,25 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './TechnologyTransfer.css';
 import TechnologyTransferImage from "../assets/images/Technology-Transfer.png";
+
 const TechnologyTransfer = () => {
    return ( 
       <div className="TechnologyTransfer-container">
-         <h1>TECHNOLOGY <span className='quality'> TRANSFER</span></h1>
+         <h1>SAFETY <span className='quality'>TRAINING</span></h1>
 
       <div className="TechnologyTransfer">
          <div className="TechnologyTransfer-items">
          <p>
-Expert Solutions for Successful and Efficient Technology Transfers. Companies transferring products and processes from one site to another often face limitations on time, resources, and regulatory expectations.
-Transfers can be complicated and many companies don't have a comprehensive plan, standard operating procedures (SOPs) or guidelines in place to effectively conduct the technology transfer. This is where we come in.
-Our team of multi-functional life science consultants have proven success in managing product and process transfers for our clients.
-Our team will demonstrate how to transfer your product or process in the most efficient manner possible, ensuring compliance along the entire way.</p>
+Comprehensive Training Solutions for Safe and Efficient Operations. Our company is committed to promoting a culture of safety and preparedness among our team members.
+We provide specialized training programs, including safe truck driving techniques and essential fire safety protocols, to ensure that our employees are equipped with the knowledge and skills needed to handle various situations responsibly and safely.
+Our experienced trainers guide employees through best practices, safety regulations, and emergency response strategies, fostering a secure and efficient work environment for everyone.</p>
          </div>
          <div className="TechnologyTransfer-items">
-            <img src={TechnologyTransferImage} alt="TechnologyTransferImage" />
+            <img src={TechnologyTransferImage} alt="Safety Training" />
          </div>
       </div>
       </div>
-
     );
 }
  

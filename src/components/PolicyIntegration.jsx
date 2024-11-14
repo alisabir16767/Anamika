@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './PolicyIntegration.css';
 
+// Import your images
+import logisticsImage from '../assets/images/Third.png';
+
+
 class PolicyIntegration extends Component {
    state = {  } 
    render() { 
@@ -19,7 +23,8 @@ class PolicyIntegration extends Component {
                   To contribute to sustainable development by promoting the use of environmentally friendly materials and energy-efficient logistics solutions. We aim to minimize the environmental impact of our services while ensuring that each project is cost-efficient and technologically advanced.
                </p>
                <div className='Policy-img'>
-                  <img src="https://media.istockphoto.com/id/1405788580/photo/drug-manufacturing-in-pharmaceutical-industry-and-its-female-employee-seen-taping-on-the.jpg?s=2048x2048&w=is&k=20&c=rO81lfQmlYX0l2k8ghQ_4TwTQgG1PteR6HOyAMrOCNc=" alt="Logistics in Action" />
+                  {/* Use the imported image */}
+                  <img src={logisticsImage} alt="Logistics in Action" />
                </div>
             </div>
 
@@ -43,10 +48,9 @@ class PolicyIntegration extends Component {
                   <li>A client-centric approach, offering a true single-point responsibility for all logistics needs.</li>
                   <li>Fixed and transparent pricing throughout the project, ensuring cost-efficiency.</li>
                   <li>End-to-end management of logistics, from planning to execution, by a dedicated team.</li>
-                  <li>Superior quality service, ensuring the safe and timely delivery of goods.</li>
-                  <li>Timely project completion, enabling quicker return on investment (ROI).</li>
-                  <li>Long-term support and partnership, ensuring the continued success of your logistics operations.</li>
+                 
                </ul>
+               
             </div>
          </div>
       );

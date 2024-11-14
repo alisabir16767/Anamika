@@ -20,7 +20,7 @@ const HomeAboutUs = () => {
         </Link>
       </div>
       <div className='container-items'>
-        <h2>PROJECTS EXECUTED <span className='quality'>IN COUNTRIES</span></h2>
+        <h2>PROJECTS EXECUTED <span className='quality'> CITIES</span></h2>
         <div className='container-items-data-img'>
           <img src={Country} alt="Executed Countries" />
         </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './OurExpertise.css';
-import ProjectExpertiseImage from '../assets/images/ProjectExpertiseGraph.png';
+import ProjectExpertiseImage from '../assets/images/ServicePortfolio.png';
 import ExperttiseFilter from './ExpertiseFilter';
 
 

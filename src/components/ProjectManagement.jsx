@@ -51,9 +51,9 @@ project with following key areas:</b>
       <ul>
          <li>Generation of User Requirement Sheets</li>
          <li>Design Qualification</li>
-         <li>FAT (Factory Acceptance Test)</li>
+         
          <li> Installation Qualification</li>
-         <li>SAT (Site Acceptance Test)</li>
+         
          <li> Operation Qualification</li>
          <li>Performance Qualification</li>
          <li> VMP (Validation Master Plan)</li>

@@ -2,15 +2,25 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './HomeOurClient.css';
 
+
+import img1 from '../assets/images/UTL.png';
+import img2 from '../assets/images/OC.png';
+import img3 from '../assets/images/PSA.png';
+import img4 from '../assets/images/MILAN.png';
+import img5 from '../assets/images/QUANTUM.png';
+import img6 from '../assets/images/SHALINA.png';  
+import img7 from '../assets/images/CROWN.png';
+import img8 from '../assets/images/Eris.png';
+
 const clients = [
-  { id: 'company-img1', img: 'https://plus.unsplash.com/premium_photo-1672759455415-34366f0a658a?q=80&w=1716&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-  { id: 'company-img2', img: 'https://media.istockphoto.com/id/1087218874/photo/shot-of-sterile-pharmaceutical-manufacturing-laboratory-where-scientists-in-protective.jpg?s=1024x1024&w=is&k=20&c=fCQkr6R-qm27ZDG0KCoTxIAxBw0QR-qTsbzDLRK-XI0=' },
-  { id: 'company-img3', img: 'https://plus.unsplash.com/premium_photo-1672759455415-34366f0a658a?q=80&w=1716&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-  { id: 'company-img4', img: 'https://plus.unsplash.com/premium_photo-1672759455415-34366f0a658a?q=80&w=1716&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-  { id: 'company-img5', img: 'https://plus.unsplash.com/premium_photo-1672759455415-34366f0a658a?q=80&w=1716&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-  { id: 'company-img1', img: 'https://plus.unsplash.com/premium_photo-1672759455415-34366f0a658a?q=80&w=1716&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-  { id: 'company-img1', img: 'https://plus.unsplash.com/premium_photo-1672759455415-34366f0a658a?q=80&w=1716&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
-  // Add more clients if needed
+  { id: 'company-img1', img: img1 },
+  { id: 'company-img2', img: img2 },
+  { id: 'company-img3', img: img3 },
+  { id: 'company-img4', img: img4 },
+  { id: 'company-img5', img: img5 },
+  { id: 'company-img6', img: img6 },  // New image
+  { id: 'company-img7', img: img7 },  // New image
+  { id: 'company-img8', img: img8 },  // New image
 ];
 
 const HomeOurClient = () => {
@@ -28,6 +38,7 @@ const HomeOurClient = () => {
                     className='company-img'
                     style={{ backgroundImage: `url(${client.img})` }}
                   >
+                    {/* You can replace the text here if you have specific content for each image */}
                     {client.id.split('-')[2]}
                   </div>
                 ))}
@@ -43,6 +54,7 @@ const HomeOurClient = () => {
               className='company-img'
               style={{ backgroundImage: `url(${client.img})` }}
             >
+              {/* You can replace the text here if you have specific content for each image */}
               {client.id.split('-')[2]}
             </div>
           ))}

@@ -21,9 +21,7 @@ const AboutUsDescription = () => {
               Welcome to the world of <span className='quality'>Maa Ambe Road Carrier</span>, where we deliver logistics solutions with precision and commitment.
             </p>
             <br />
-            <div className='DescriptionImage'>
-               <img src={DescriptionImage} alt="Description Image" />
-            </div>
+         
          </div>
       </div>
    );
