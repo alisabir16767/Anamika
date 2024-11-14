@@ -13,7 +13,7 @@
 /* Brand text color and size */
 .navbar-brand-custom {
   font-size: 1rem!important;
-  color: #0098DA !important;
+   color: #005eda !important;
   display: flex;
   align-items: center;
 }
