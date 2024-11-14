@@ -8,6 +8,9 @@
   top: 0 !important;
   z-index: 1000 !important;
   padding-right: 25px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items on the same line */
 }
 
 /* Brand text color and size */
@@ -16,6 +19,7 @@
   color: #005eda !important;
   display: flex;
   align-items: center;
+  flex: 1;
 }
 
 /* Brand image styling */
@@ -23,7 +27,7 @@
   height: 60px; /* Default size */
   width: auto; /* Maintain aspect ratio */
   margin-right: 5px;
-  max-width: 100%; /* Ensure logo doesn't overflow */
+  max-width: 100%;
 }
 
 /* Make logo responsive */
@@ -45,19 +49,11 @@
   }
 }
 
-/* Phone item styling */
-.phone-item {
-  margin-right: 10px !important;
-  display: flex !important;
-  align-items: center !important;
-}
-
-.phone-item:last-child {
-  margin-right: 0 !important;
-}
-
-.phone-item .fa-icon {
-  margin-right: 5px !important;
+/* Navbar collapse styles */
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end; /* Align navbar items to the right */
+  flex-grow: 0;
 }
 
 /* Nav link styles */
@@ -69,4 +65,14 @@
 /* Hover effect for nav links */
 .nav-link-custom:hover {
   background-color: #bee6f7 !important;
+}
+
+/* Mobile menu button (hamburger icon) */
+.navbar-toggler {
+  border-color: transparent !important;
+}
+
+/* Mobile menu button icon */
+.navbar-toggler-icon {
+  background-color: #005eda !important; /* Custom color for the hamburger icon */
 }
