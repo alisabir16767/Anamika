@@ -20,7 +20,7 @@ const ServicePortfolio = () => {
                   <li>Single-XL high Cube</li>
                   <li>Multi-XL</li>
                   <li>Multimodal Transport Solutions</li>
-                  <li>20 FONT TRUCK</li>
+                  <li>20 FONT TRUCK sizes</li>
                </ul>
             </div>
             <div className="ServicePortfolio-items">
