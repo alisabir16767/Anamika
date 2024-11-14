@@ -8,7 +8,7 @@ import ConceptEngineering from './ConceptEngineering';
 import BasicEngineering from './BasicEngineering';
 
 import ProjectManagement from './ProjectManagement';
-import RegulatoryComplianceSupport from './RegulatoryComplianceSupport';
+
 import TechnologyTransfer from './TechnologyTransfer';
 
 
@@ -29,7 +29,7 @@ class OurServices extends Component {
         <BasicEngineering/>
         
         <ProjectManagement/>
-        <RegulatoryComplianceSupport/>
+        
         <TechnologyTransfer/>
          </div>
 
