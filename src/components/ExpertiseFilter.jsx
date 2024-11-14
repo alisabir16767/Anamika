@@ -3,12 +3,12 @@ import './ExpertiseFilter.css';
 
 // Import your custom images
 import image1 from '../assets/images/Second.png';
-import image2 from '../assets/images/leader4.jpeg';
+import image2 from '../assets/images/Second.png';
 import image3 from '../assets/images/First.png';
 import image4 from '../assets/images/Third.png';
-import image5 from '../assets/images/leader1.jpg';
-import image6 from '../assets/images/leader2.jpg';
-import image7 from '../assets/images/leader3.jpg';
+import image5 from '../assets/images/Third.png';
+import image6 from '../assets/images/Second.png';
+import image7 from '../assets/images/sixth.jpeg';
 import image8 from '../assets/images/sixth.jpeg';
 import image9 from '../assets/images/First.png';
 import image10 from '../assets/images/Third.png';

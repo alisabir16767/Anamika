@@ -3,7 +3,7 @@ import './LeaderTeam.css';
 import Image1 from '../assets/images/leader1.jpg';
 import Image2 from '../assets/images/leader2.jpg';
 import Image3 from '../assets/images/leader3.jpg';
-import Image4 from '../assets/images/leader4.jpeg'
+import Image4 from '../assets/images/leader4.jpeg';
 
 const LeaderTeam = () => {
    return ( 
@@ -30,7 +30,7 @@ const LeaderTeam = () => {
                <div className="card-img-top" style={{ backgroundImage: `url(${Image3})` }}></div>
                <div className="card-body">
                   <h3>ARPIT MISHRA</h3>
-                  <p><b><span className='quality'>EXECUTIVE DIRECTOR</span></b>
+                  <p><b><span className='quality'>EXECUTIVE DIRECTOR 1</span></b>
                      <br />EXPERIENCE 2+</p>
                </div>
             </div>
@@ -38,7 +38,7 @@ const LeaderTeam = () => {
                <div className="card-img-top" style={{ backgroundImage: `url(${Image4})` }}></div>
                <div className="card-body">
                   <h3>SUMIT MISHRA</h3>
-                  <p><b><span className='quality'>EXECUTIVE DIRECTOR</span></b>
+                  <p><b><span className='quality'>EXECUTIVE DIRECTOR 2</span></b>
                      <br />EXPERIENCE 1+</p>
                </div>
             </div>

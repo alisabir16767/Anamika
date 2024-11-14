@@ -38,10 +38,10 @@ const MissionAccomplished = () => {
     return (
         <div className="MissionAccomplished">
             <h1>MISSON... <span className='quality'>ACCOMPLISHED</span></h1>
-            <p>"It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently."
+            <p>"The Rate of your success depends on the depth of your desire"
                 <br />
                 <br />
-                <i><b>~Warren Buffett</b></i>
+                <i><b>~ Arpit Mishra</b></i>
             </p>
             <div className="MissionAccomplished-items">
                 {images.map((image, index) => (

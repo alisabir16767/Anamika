@@ -14,13 +14,13 @@ const ServicePortfolio = () => {
                </p>
                <ul>
                   <li>Primary & Secondary Transport Solutions</li>
-                  <li>Refrigerated Transportation</li>
-                  <li>Less Than Truck Load (LTL) Services</li>
-                  <li>Over Dimensional Consignments (ODC) Management</li>
-                  <li>Air Cargo Services</li>
-                  <li>Warehousing & Distribution</li>
+                  <li>(FTL) Full Truck Load</li>
+                  <li>(PTL) Part Truck Load</li>
+                  <li>Dry Container Truck</li>
+                  <li>Single-XL high Cube</li>
+                  <li>Multi-XL</li>
                   <li>Multimodal Transport Solutions</li>
-                  <li>Logistics Consultation & Planning</li>
+                  <li>20 FONT TRUCK</li>
                </ul>
             </div>
             <div className="ServicePortfolio-items">

@@ -9,7 +9,7 @@ const ContactUsItems = () => {
          <div className="Address">
             <div className="Address-detail">
                <h4><FontAwesomeIcon icon={faMapMarkerAlt} />CORPORATE OFFICE:</h4>
-               <p>Maa ambe x Anamika raodlines serve no 20024 kolhe old mumbai Puna road panvel Navi Mumbai.</p>
+               <p>Office Number 283, 2nd Floor Disma Complex Kalamboli Navi Mumbai 410218</p>
                <h4><FontAwesomeIcon icon={faEnvelope} /> EMAIL:</h4>
                <p>maaamberoad@gmail.com</p>
                <h4><FontAwesomeIcon icon={faPhone} /> PHONE:</h4>
@@ -17,9 +17,9 @@ const ContactUsItems = () => {
             </div>
             <div className="Address-detail">
                <h4><FontAwesomeIcon icon={faMapMarkerAlt} /> BRANCH OFFICE:</h4>
-               <p>Maa ambe x Anamika raodlines serve no 20024 kolhe old mumbai Puna road panvel Navi Mumbai.</p>
+               <p>Survey No. 204, Kolkhe Village, Old Mumbai Pune Road Panvel Navi Mumbai</p>
                <h4><FontAwesomeIcon icon={faEnvelope} /> EMAIL:</h4>
-               <p>maaamberoad@gmail.com</p>
+               <p>anamikaroadlines@gmail.com</p>
                <h4><FontAwesomeIcon icon={faPhone} /> PHONE:</h4>
                <p>+91 9769419731</p>
             </div>

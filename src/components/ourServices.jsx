@@ -4,7 +4,7 @@ import MissionFullStop from './MissionFullStop';
 import ServicePortfolio from './ServicePortfolio';
 import FeasibilityStudies from './FeasibilityStudies';
 import MasterPlaning from './MasterPlaning';
-
+import ConceptEngineering from './ConceptEngineering';
 import BasicEngineering from './BasicEngineering';
 
 import ProjectManagement from './ProjectManagement';
@@ -22,6 +22,7 @@ class OurServices extends Component {
         </div>
         <MissionFullStop/>
         <ServicePortfolio/>
+        <ConceptEngineering/>
         <FeasibilityStudies/>
         < MasterPlaning/>
         

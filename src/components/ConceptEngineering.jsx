@@ -1,70 +1,70 @@
 import React from 'react';
 import './ConceptEngineering.css';
 import ConceptEngineeringImage from "../assets/images/Concept-Engineering-services.png";
-
 const ConceptEngineering = () => {
    return ( 
       <div className="ConceptEngineering-container">
-         <h1>CONCEPT <span className='quality'> ENGINEERING</span></h1>
+         <h1>Vehicle <span className='quality'> Maintenance</span></h1>
          <div className='ConceptEngineering'>
             <div className="ConceptEngineering-items">
                <p>
-                  Concept Engineering is the foundational step for identifying and defining the features and layout of logistics and transport infrastructure that Maa Ambe Road Carrier can provide. This process involves analyzing client requirements to create an efficient and effective concept plan. It includes project framing, data collection, data analysis, and action selection based on logistics and transport needs.
+                  Vehicle maintenance is essential to ensure optimal performance, safety, and longevity of the fleet at Maa Ambe Road Carrier. This service covers a range of tasks to keep vehicles in top condition, including inspections, diagnostics, repairs, and preventive care based on industry standards and vehicle requirements.
                   <br /><br />
-                  This concept engineering document serves as a guide for the project plan and as a basis for detailed engineering, laying the groundwork for the entire project.
+                  Our vehicle maintenance process is designed to minimize downtime, extend vehicle life, and enhance operational efficiency.
                   <br />
-                  <b>The Concept Engineering process defines the following:</b>
+                  <b>The Vehicle Maintenance process includes the following:</b>
                </p>
                <ul>
-                  <li>Design Concept for Transport and Logistics Solutions</li>
-                  <li>Regulatory Compliance with National and International Standards</li>
-                  <li>Facility Layout and Material Handling</li>
-                  <li>Optimized Routes and Flow for Vehicles and Personnel</li>
-                  <li>Equipment and Utility Balancing</li>
-                  <li>Time and Cost Estimation</li>
-                  <li>Fire and Safety Systems</li>
-                  <li>Additional Supporting Equipment</li>
+                  <li>Regular Inspections and Diagnostics</li>
+                  <li>Compliance with National and International Safety Standards</li>
+                  <li>Engine and Transmission Check-ups</li>
+                  <li>Braking System Maintenance and Repair</li>
+                  <li>Oil and Fluid Management</li>
+                  <li>Tyre Maintenance and Alignment</li>
+                  <li>Battery and Electrical System Checks</li>
+                  <li>Emergency Breakdown Support</li>
+                  <li>24*7 Support</li>
+                  <li>Vehicle Tracking and Maintainence</li>
                </ul>
             </div>
             <div className="ConceptEngineering-items">
-               <img src={ConceptEngineeringImage} alt="Concept Engineering" />
+               <img src={ConceptEngineeringImage} alt="Vehicle Maintenance" />
             </div>
 
             <div className="stage">
                <div className="ConceptEngineering-items">
                   <p><b>Stage 1:</b>
                   <br /><br />
-                  Identifying functional requirements for logistics facilities, including process workflows and levels of automation. This includes:
+                  Assessing vehicle condition and requirements through initial diagnostics. This includes:
                   <ul>
-                     <li>Service Types and Volumes</li>
-                     <li>Fleet and Equipment Needs</li>
-                     <li>Handling and Storage Requirements</li>
-                     <li>Expansion Strategies</li>
+                     <li>Performance Assessment and Fault Detection</li>
+                     <li>Inspection of Essential Components</li>
+                     <li>Maintenance History Review</li>
+                     <li>Identification of High-Priority Repairs</li>
                   </ul>
                   </p>
                </div>
                <div className="ConceptEngineering-items">
                   <p><b>Stage 2:</b>
                   <br /><br />
-                  Initial layout development based on available space and resources, addressing requirements such as:
+                  Developing a tailored maintenance plan to address specific vehicle needs, covering:
                   <ul>
-                     <li>Preliminary Site Layout</li>
-                     <li>Environmental and Safety Standards</li>
-                     <li>Water and Waste Management Facilities</li>
+                     <li>Scheduled Maintenance Tasks</li>
+                     <li>Replacement of Worn-Out Parts</li>
+                     <li>Fluid Checks and Top-Ups</li>
+                     <li>System Calibration and Adjustments</li>
                   </ul>
                   </p>
                </div>
                <div className="ConceptEngineering-items">
                   <p><b>Stage 3:</b>
                   <br /><br />
-                  Using the collected data to develop the following:
+                  Implementing preventive measures and documenting all services performed, including:
                   <ul>
-                     <li>Project Budget Estimation</li>
-                     <li>Facility Layout Compliant with Regulatory Norms</li>
-                     <li>Conceptual Building Design</li>
-                     <li>User Requirement Specifications (URS)</li>
-                     <li>Project Schedule Development</li>
-                     <li>Utility and Infrastructure Design</li>
+                     <li>Detailed Service Records</li>
+                     <li>Cost and Time Estimates</li>
+                     <li>Vehicle Health Report</li>
+                     <li>Planning for Future Maintenance Needs</li>
                   </ul>
                   </p>
                </div>

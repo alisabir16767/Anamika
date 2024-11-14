@@ -5,9 +5,9 @@ import DescriptionImage from "../assets/images/aboutUsDescription.png";
 const AboutUsDescription = () => {
    return ( 
       <div className='AboutUs-Container'>
-         <h1 className='AboutUs-Title'>FROM SCRATCH <span className='quality'>TO BATCH</span></h1>
+         <h1 className='AboutUs-Title'>SAFE AND <span className='quality'>SECURE</span></h1>
          <p>"The key to growth is in higher dimensions of consciousness in our awareness." </p>
-         <p><i><b>~ Lao Tzu</b></i></p>
+         <p><i><b>~ Pradeep Mishra</b></i></p>
          <div className='AboutUs-Title-Description'>
             <p>
               <span className='quality'>Maa Ambe Road Carrier</span> is a leading and fast-growing logistics company in India, specializing in supply chain solutions with a strong presence across the country. With our sister concern, <span className='quality'>Anamika Road Lines</span>, we are committed to providing top-tier logistics services to industries such as Pharmaceuticals, FMCG, E-commerce, Chemicals, Healthcare, and Engineering.

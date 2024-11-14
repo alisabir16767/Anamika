@@ -7,6 +7,7 @@ import HomeAboutUs from './HomeAboutUs';
 import HomeOurClient from './HomeOurClient';
 import MatchWinningAchievement from './MatchWinningAchievement';
 import HomeOurJourney from './HomeOurJourney';
+
 import MissionFullStop from './MissionFullStop';
 
 class Home extends Component {
@@ -19,6 +20,7 @@ class Home extends Component {
            <HomeAboutUs/>       
 <hr />           
          <MissionFullStop/>
+        
           <HomeOurJourney/>
            <MatchWinningAchievement/>
            <HomeOurClient/>

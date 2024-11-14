@@ -17,7 +17,7 @@ class OurExpertise extends Component {
          <h1>DIVERSE <span className='quality'>PROJECT EXPERTISE </span> </h1>
          <p>"My matric for success can be summed up in one phrase: earn customer for life."
             <br />
-            <b><i>~Mary Barra</i></b>
+            <b><i>~ Pradeep Mishra</i></b>
          </p>
           <img src={ProjectExpertiseImage} alt="ProjectExpertiseImage" />
       </div>

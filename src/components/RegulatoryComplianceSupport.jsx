@@ -7,7 +7,8 @@ const RegulatoryComplianceSupport = () => {
       <div className="RegulatoryComplianceSupport">
          <h1>REGULATORY <span className='quality'>COMPLIANCE SUPPORT</span></h1>
          <div className="RegulatoryComplianceSupport-items">
-         <p><b>I. ADVISORY SERVICES</b>        
+         <p>
+            <b>I. ADVISORY SERVICES</b>        
          <ul>
             <li>Compliance with transport and logistics safety standards</li>
             <li>Advisory services for logistics-related regulatory requirements, including environmental and safety guidelines</li>

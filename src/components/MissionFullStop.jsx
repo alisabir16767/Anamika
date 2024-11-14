@@ -7,7 +7,7 @@ const MissionFullStop = () => {
     <div className='mission-full-stop'>
         <h1>MISSION <span className='quality'>FULL STOP</span></h1>
         <p>"Till The Full Stop Doesn't Come, The Sentence Is Not Complete."</p>
-        <p><i><b>- MS Dhoni</b></i></p>
+        <p><i><b>~ Pradeep Mishra</b></i></p>
 
         <div className="mission-full-stop-content">
           <div className="mission-full-stop-items">
