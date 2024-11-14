@@ -116,9 +116,11 @@ const Footer = () => {
         © 2024 Copyright:
         <a className="text-reset fw-bold" href=".">MaaAmbeCarriers.com</a>
       </div>
-      <div className="copyright text-center p-4">
-        <a className="text-reset fw-bold" href="https://www.linkedin.com/in/sabirali123/">Developed By SABIR ALI</a>
-      </div>
+     <div className="copyright text-center p-4">
+  <a className="text-reset fw-bold" href="https://www.linkedin.com/in/sabirali123/">Developed By SABIR ALI</a>
+  <span> & </span>
+  <a className="text-reset fw-bold" href="https://www.linkedin.com/in/prashant-dubey-59826521b/">Prashant Dubey</a>
+</div>
       {/* Copyright */}
     </footer>
   );
