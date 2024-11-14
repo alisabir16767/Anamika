@@ -12,32 +12,52 @@
 
 /* Brand text color and size */
 .navbar-brand-custom {
-  font-size: 1rem!important;
-   color: #005eda !important;
+  font-size: 1rem !important;
+  color: #005eda !important;
   display: flex;
   align-items: center;
 }
 
 /* Brand image styling */
 .navbar-brand-image {
-  height: 60px; /* Adjust height as needed */
+  height: 60px; /* Default size */
   width: auto; /* Maintain aspect ratio */
   margin-right: 5px;
+  max-width: 100%; /* Ensure logo doesn't overflow */
+}
+
+/* Make logo responsive */
+@media (max-width: 992px) {
+  .navbar-brand-image {
+    height: 50px; /* Slightly smaller logo on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand-image {
+    height: 40px; /* Smaller logo on small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand-image {
+    height: 35px; /* Even smaller logo on extra small screens */
+  }
 }
 
 /* Phone item styling */
 .phone-item {
-  margin-right: 10px !important; /* Adjust this value as needed */
+  margin-right: 10px !important;
   display: flex !important;
   align-items: center !important;
 }
 
 .phone-item:last-child {
-  margin-right: 0 !important; /* Remove margin from the last item */
+  margin-right: 0 !important;
 }
 
 .phone-item .fa-icon {
-  margin-right: 5px !important; /* Add some space between the icon and the text */
+  margin-right: 5px !important;
 }
 
 /* Nav link styles */
@@ -48,6 +68,5 @@
 
 /* Hover effect for nav links */
 .nav-link-custom:hover {
-  /* color: #0098DA !important; */
   background-color: #bee6f7 !important;
 }
