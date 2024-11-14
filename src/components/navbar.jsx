@@ -14,7 +14,7 @@ class AppNavbar extends Component {
             alt="Maa Ambe Carriers" 
             className="navbar-brand-image"
           />
-         Maa Ambe Road Carriers 
+         MaaAmbeRoad Carriers 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
