@@ -48,7 +48,7 @@ const CarouselComponent = () => {
         </Link>
       </Carousel.Item>
       <Carousel.Item>
-        <Link to="/About Us">
+        <Link to="/aboutus">
           <img
             className="d-block w-100"
             src={Fifth}
