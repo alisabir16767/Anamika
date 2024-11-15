@@ -39,6 +39,7 @@ const LeaderTeam = () => {
     className="card-img-top"
     style={{ backgroundImage: "none" }}
   ></div>
+
   <div className="card-body">
     <h3>SUMIT MISHRA</h3>
     <p>
