@@ -117,7 +117,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="copyright text-center p-4">
         © 2024 Copyright:
-        <a className="text-reset fw-bold" href=".">MaaAmbeCarriers.com</a>
+        <a className="text-reset fw-bold" href="https://www.maaamberoadcarriers.in">MaaAmbeCarriers.in</a>
       </div>
      <div className="copyright text-center p-4">
   <a className="text-reset fw-bold" href="https://www.linkedin.com/in/sabirali123/">Developed By SABIR ALI</a>
