@@ -4,6 +4,7 @@ import AboutUsDescription from './aboutUsDescription';
 import OurStrengthOurPresence from './OurStrengthOurPresence';
 import LeaderTeam from './LeaderTeam';
 import PolicyIntegration from './PolicyIntegration';
+import DetailedEngineering from './DetailedEngineering';
 
 class AboutUsContent extends Component {
   render() {
@@ -15,6 +16,7 @@ class AboutUsContent extends Component {
         </div>
         <AboutUsDescription />
         <OurStrengthOurPresence />
+        <DetailedEngineering />
         <LeaderTeam />
         <PolicyIntegration />
       </div>
