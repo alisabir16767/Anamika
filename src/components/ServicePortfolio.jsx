@@ -20,7 +20,9 @@ const ServicePortfolio = () => {
                   <li>Single-XL high Cube</li>
                   <li>Multi-XL</li>
                   <li>Multimodal Transport Solutions</li>
-                  <li>20 FONT TRUCK sizes</li>
+                  <li>20,22,24 10mt 11mt  feet open body truck supply</li>
+                  <li>25mt 30mt 35 Mt 40mt 45 Mt open body truck and trala supply</li>
+                  
                </ul>
             </div>
             <div className="ServicePortfolio-items">
