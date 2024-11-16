@@ -1,72 +1,228 @@
-/* Navbar background color */
+/* Top Contact Info */
+.top-contact-info {
+  background: linear-gradient(90deg, #050504, #141411);
+  color: #0a0808;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+/* Navbar */
 .navbar-custom {
-  background-color: white !important;
-  padding-left: 25px !important;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
-  position: fixed !important;
-  width: 100% !important;
-  top: 0 !important;
-  z-index: 1000 !important;
-  padding-right: 25px !important;
+  background: linear-gradient(90deg, #dde1e4, #c1cdce);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 8px 10px;
 }
 
-/* Brand text color and size */
-.navbar-brand-custom {
-  font-size: 1rem !important;
-  color: #005eda !important;
-  display: flex;
-  align-items: center;
-}
-
-/* Brand image styling */
 .navbar-brand-image {
-  height: 60px; /* Default size */
-  width: auto; /* Maintain aspect ratio */
-  margin-right: 5px;
-  max-width: 100%; /* Ensure logo doesn't overflow */
+  height: 80px;
+  width: 200px;
+  border-radius: 8%;
+ 
 }
 
-/* Make logo responsive */
-@media (max-width: 992px) {
-  .navbar-brand-image {
-    height: 50px; /* Slightly smaller logo on medium screens */
+.navbar-motto {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* Navigation Links */
+.nav-link-custom {
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom i {
+  margin-right: 5px;
+}
+
+.nav-link-custom:hover {
+  color: #ffd700 !important;
+}
+
+/* Get Connect Button */
+.get-connect-button {
+  background: #ffd700;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  animation: fadeInSlideUp 1s ease-out; /* Add animation */
+}
+
+.get-connect-button:hover {
+  background: #fff;
+}
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Start slightly below */
   }
+  100% {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Return to original position */
+  }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-motto {
+    font-size: 10px;
+  }
+
+  .nav-link-custom {
+    font-size: 14px;
+    text-align: left; /* Align links to the left for stacked view */
+    margin: 10px 0;
+  }
+
+  .navbar-collapse {
+    background: #ebeff1; /* Add background for mobile view */
+    padding: 10px;
+  }
+
+  .get-connect-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+
+/* Add box styling to the navbar links */
+.nav-links-box {
+  background-color: #042d58; /* Dark navy blue background */
+  padding: 15px; /* Slightly larger padding */
+  border-radius: 12px; /* More rounded corners for a modern look */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+  display: flex;
+  flex-wrap: wrap; /* Wrap links if space is constrained */
+  justify-content: center; /* Center align the links */
+  gap: 10px; /* Space between links */
+  animation: slideIn 1.5s ease-out; /* Smooth slide-in animation */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth interaction effects */
+}
+
+.nav-links-box:hover {
+  transform: scale(1.03); /* Slightly enlarges the box on hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover */
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px); /* Start slightly above */
+    opacity: 0; /* Fully transparent */
+  }
+  100% {
+    transform: translateY(0); /* Return to original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+
+.nav-links-box .nav-link-custom {
+  margin: 5px 10px; /* Spacing between links */
+  color: #333; /* Link color */
+}
+
+.nav-links-box .nav-link-custom:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.contact-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    border: none; /* Remove borders */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 16px; /* Padding for button size */
+    font-size: 14px; /* Adjust font size */
+    display: flex; /* Flex layout for icon and text */
+    align-items: center; /* Center icon and text vertically */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.contact-button i {
+    margin-right: 8px; /* Add space between icon and text */
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.contact-button {
+  background-color: #007bff; /* Primary blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 3px; /* Slightly rounded corners */
+  padding: 6px 12px; /* Small padding */
+  font-size: 12px; /* Smaller text size */
+  display: flex; /* Flexbox for icon and text alignment */
+  align-items: center; /* Vertically align icon and text */
+  justify-content: center; /* Center content */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.contact-button i {
+  margin-right: 6px; /* Space between icon and text */
+  font-size: 14px; /* Slightly larger icon size */
+}
+
+.contact-button:hover {
+  background-color: #480d26; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.contact-button:active {
+  transform: scale(0.95); /* Slight press effect */
 }
 
 @media (max-width: 768px) {
-  .navbar-brand-image {
-    height: 40px; /* Smaller logo on small screens */
+  .contact-button {
+      font-size: 10px; /* Adjust font size for smaller screens */
+      padding: 4px 8px; /* Adjust padding for smaller buttons */
+  }
+
+  .contact-button i {
+      margin-right: 4px; /* Adjust spacing for smaller size */
+      font-size: 12px; /* Reduce icon size */
   }
 }
 
-@media (max-width: 576px) {
-  .navbar-brand-image {
-    height: 35px; /* Even smaller logo on extra small screens */
+@media (max-width: 480px) {
+  .contact-button {
+      width: 100%; /* Make buttons take full width */
+      justify-content: flex-start; /* Align text to the left */
+      font-size: 11px; /* Slightly larger for readability */
+  }
+}
+/* Define the fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
-/* Phone item styling */
-.phone-item {
-  margin-right: 10px !important;
-  display: flex !important;
-  align-items: center !important;
-}
-
-.phone-item:last-child {
-  margin-right: 0 !important;
-}
-
-.phone-item .fa-icon {
-  margin-right: 5px !important;
-}
-
-/* Nav link styles */
-.nav-link-custom {
+/* Apply fade-in to the navbar text */
+.navbar-text {
+  font-size: 18px;
   font-weight: bold;
-  color: #111111 !important;
-}
-
-/* Hover effect for nav links */
-.nav-link-custom:hover {
-  background-color: #bee6f7 !important;
+  color: #fff;  /* Set text color */
+  margin-top: 10px;
+  opacity: 0;  /* Initially hidden */
+  animation: fadeIn 2s ease-in-out forwards;  /* Fade-in effect */
+  animation-delay: 1s;  /* Optional: delay before the fade-in starts */
 }
