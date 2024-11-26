@@ -14,7 +14,7 @@ const AboutUsDescription = () => {
               <br /><br />
               Our journey began in 2020, and over the last 4 years, we have earned the trust of global leaders by delivering high-quality and reliable logistics solutions. Our services span over 85% of India’s landmass, and we proudly handle and deliver over 15 million cubic feet of cargo each year.
               <br /><br />
-              As pioneers in the transport industry, we offer a diverse range of services, including primary and secondary transport, refrigerated transportation for sensitive products, multi-modal transport solutions, and last-mile delivery. Our fleet of more than 600 CCI-owned vehicles ensures safe, efficient, and timely deliveries, fulfilling our motto: “**Intime, Intact**.”
+              As pioneers in the transport industry, we offer a diverse range of services, including primary and secondary transport, refrigerated transportation for sensitive products, multi-modal transport solutions, and last-mile delivery. Our fleet of more than 7+ owned vehicles 60+ CCI owned vehicle in our hand And if company and client required more  vehicle and in case our owned vehicle not available then we hire from market or from our group our motto: “**Intime, Intact**.”
               <br /><br />
               We have an extensive network of branches across the country, including Mumbai (Head Office), Nagpur, Raipur, Indore, Lucknow, and more, backed by a dedicated team of over 40 professionals who ensure seamless operations across all locations.
               <br /><br />

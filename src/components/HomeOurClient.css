@@ -17,16 +17,18 @@
  }
  
  .company-img {
-   background-color: aliceblue;
-   margin: 10px;
-   border-radius: 5px;
-   width: calc(20% - 20px); /* Adjust width based on the number of items per row */
-   max-width: 200px; /* Set a maximum width to prevent images from becoming too large */
-   flex-grow: 1; /* Allow items to grow to fill the space evenly */
-   height: 200px;
-   background-size: cover;
-   background-position: center;
- }
+  background-color: aliceblue;
+  margin: 10px auto; /* Center items horizontally */
+  border-radius: 5px;
+  width: 200px; /* Fixed width for uniformity in carousel */
+  max-width: 100%; /* Ensure responsiveness */
+  flex-grow: 0; /* Prevent images from stretching unevenly */
+  height: 200px; /* Fixed height for uniformity */
+  background-size: cover; /* Adjust to cover the entire container */
+  background-position: center;
+  overflow: hidden; /* Prevent content overflow */
+}
+
  
  @media screen and (max-width: 768px) {
    .company-img {
